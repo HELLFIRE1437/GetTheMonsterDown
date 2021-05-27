@@ -40,7 +40,7 @@ function setup() {
   hero.addImage("hero",heroImg);
   hero.scale = 0.1 ;
 
-  herobody = new Hero(100,100,200,50);
+  herobody = new Hero(100,100,180,50);
 
   monster = createSprite(720,330,80,80);
   monster.addImage("monster",monsterImg);
